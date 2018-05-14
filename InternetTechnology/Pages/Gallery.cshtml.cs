@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace InternetTechnology.Pages
 {
-    public class ContactModel : PageModel
+    public class GalleryModel : PageModel
     {
         public string Message { get; set; }
 

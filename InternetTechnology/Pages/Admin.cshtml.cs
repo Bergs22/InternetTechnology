@@ -7,12 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace InternetTechnology.Pages
 {
-    public class IndexModel : PageModel
+    public class AdminModel : PageModel
     {
-        public string Message { get; set; }
         public void OnGet()
         {
-            Message = "Welcome to my portfolio website";
+
         }
     }
 }
