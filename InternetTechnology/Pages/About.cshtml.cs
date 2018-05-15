@@ -18,8 +18,8 @@ namespace InternetTechnology.Pages
         public void OnGet()
         {
             Message = "This is me!";
-            System.IO.File.WriteAllText(path, "hej");
-            string s = System.IO.File.ReadAllText(path);
+            //System.IO.File.WriteAllText(path, "hej");
+            //string s = System.IO.File.ReadAllText(path);
             Name = "Mads Berggreen";
         }
     }
