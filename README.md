@@ -6,3 +6,5 @@ so the path to the file needs to be changed to run the website. The admin page a
 the information used for the about me page. The folder for the files are in the project however the directory for the project is under
 users, and therefore the file path needs to be modified. The classes where the file path needs to be modified are:
 Admin.cshtml.cs, About.cshtml.cs and NeewsLetter.cshtml.cs.
+
+The website does not use any external libraries that needs to be installed so it should run right away, after the file paths have been modified.
