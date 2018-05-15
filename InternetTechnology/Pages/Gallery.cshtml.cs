@@ -12,7 +12,7 @@ namespace InternetTechnology.Pages
 
         public void OnGet()
         {
-            Message = "This is a little gallery of pictures that i have taken";
+            Message = "This is a little gallery of pictures that i have found around the internet";
         }
     }
 }

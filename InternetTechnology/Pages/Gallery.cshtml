@@ -3,7 +3,35 @@
 @{
     ViewData["Title"] = "Gallery";
 }
-<h2>@ViewData["Title"]</h2>
 
-<h3>@Model.Message</h3>
+@section styles { 
+<link rel="stylesheet" href="~/css/Gallery.css"/> 
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<h2>@Model.Message</h2>
+
+<div class="row">
+    <div class="column">
+        <img src="~/images/GalleryPage/W_2014_364_OVERLORD_II.jpg" height="200" width="300">
+        <img src="~/images/GalleryPage/W_2014_357.jpg" height="200" width="300">
+        <img src="~/images/GalleryPage/W_2014_358.jpg" height="200" width="300">
+    </div>
+    <div class="column">
+        <img src="~/images/GalleryPage/W_2014_361_DARKWING.jpg" height="200" width="300">
+        <img src="~/images/GalleryPage/W_2014_360_TOTEM.jpg" height="200" width="300">
+        <img src="~/images/GalleryPage/W_2014_365.jpg" height="200" width="300">
+    </div>
+    <div class="column">
+        <img src="~/images/GalleryPage/W_2014_340_DIVER_II.jpg" height="200" width="300">
+        <img src="~/images/GalleryPage/W_2014_343_TURBINE.jpg" height="200" width="300">
+        <img src="~/images/GalleryPage/W_2014_353_SPAWN.jpg" height="200" width="300">
+    </div>
+    <div class="column">
+        <img src="~/images/GalleryPage/DEADPOOl.jpg" height="200" width="300">
+        <img src="~/images/GalleryPage/JOKER.jpg" height="200" width="300">
+        <img src="~/images/GalleryPage/WStarLord.jpg" height="200" width="300">
+    </div>
+</div>
 
