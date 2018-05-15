@@ -10,6 +10,7 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Data\" />
     <Folder Include="wwwroot\images\GalleryPage\" />
   </ItemGroup>
 </Project>

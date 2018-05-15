@@ -8,19 +8,14 @@ namespace InternetTechnology.Pages
 {
     public class AboutMeModel : PageModel
     {
-        public string Message { get; set; }
-
-        public String Name { get; set; }
-        public String BirthDay { get; set; }
-        public int Age { get; set; }
-        public String Occupation { get; set; }
-        public String AboutMe { get; set; }
+        public String Message { get; set; }
+        public String SecTitel { get; set; }
+        public String MyDescription { get; set; } 
         public void OnGet()
         {
             Message = "This is me!";
-            //System.IO.File.WriteAllText(path, "hej");
-            //string s = System.IO.File.ReadAllText(path);
-            Name = "Mads Berggreen";
+            SecTitel = "About me:";
+            MyDescription = System.IO.File.ReadAllText("C:/Users/Mads/source/repos/InternetTechnology/InternetTechnology/Data/Test.txt");
         }
     }
 }

@@ -1,8 +1,24 @@
 ﻿@page
 @model AdminModel
 @{
-    ViewData["Title"] = "Admin";
+    ViewData["Title"] = "Admin page";
 }
+<h1>@ViewData["Title"]</h1>
+<h2>@Model.AdminPageInfo</h2>
+<h3>@Model.Message</h3>
+<form method="post">
+    <p>Write your name here:</p>
+    <textarea name="Name"></textarea>
+    <p>Your birthday:</p>
+    <input type="date" name="Birthday">
+    <p>Your age:</p>
+    <input type="number" name="Age">
+    <p>A description of yourself:</p>
+    <textarea name="Description"></textarea>
+    <p>Your E-mail address</p>
+    <input type="email" name="Email">
+    <p>
 
-<h2>Admin</h2>
-
+    </p>
+    <input type="submit" name="Submit">
+</form>
