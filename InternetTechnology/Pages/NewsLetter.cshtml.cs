@@ -18,7 +18,7 @@ namespace InternetTechnology.Pages
         public void OnPost()
         {
             String emailAddress = Request.Form["emailaddress"];
-            System.IO.File.AppendAllText("C:/Users/Mads/source/repos/InternetTechnology/InternetTechnology/Data/email.txt", emailAddress);
+            System.IO.File.AppendAllText("C:/Users/Mads/source/repos/InternetTechnology/InternetTechnology/Data/Email.txt", emailAddress);
             Message = "E-mail successfully submitted you are now on the mailing list!";
         }
     }
