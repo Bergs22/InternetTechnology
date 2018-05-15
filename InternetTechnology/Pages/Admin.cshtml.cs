@@ -30,7 +30,7 @@ namespace InternetTechnology.Pages
 
         public void OnPost()
         {
-            System.IO.File.WriteAllText("C:/Users/Mads/source/repos/InternetTechnology/InternetTechnology/Data/About.txt", "My name is " + Name + " my birthday is " + Birthday
+            System.IO.File.WriteAllText("C:/Users/Mads/source/repos/InternetTechnology/InternetTechnology/Data/test.txt", "My name is " + Name + " my birthday is " + Birthday
                 + " which makes me " + Age + " years old. " + Description + " To get in contact with me you can use this E-mail: " + Email);
 
             Message = "The new info was successfully added";
