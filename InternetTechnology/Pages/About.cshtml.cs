@@ -15,7 +15,7 @@ namespace InternetTechnology.Pages
         {
             Message = "This is me!";
             SecTitel = "About me:";
-            MyDescription = System.IO.File.ReadAllText("C:/Users/Mads/source/repos/InternetTechnology/InternetTechnology/Data/Test.txt");
+            MyDescription = System.IO.File.ReadAllText("C:/Users/Mads/source/repos/InternetTechnology/InternetTechnology/Data/About.txt");
         }
     }
 }
